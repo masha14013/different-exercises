@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT || 5000
 
 const products = [{id: 1, title: 'tomato'}, {id: 2, title: 'orange'}]
-const addresses = [{id: 1, value: 'Central 3'}, {id: 2, value: 'White 44'}]
+const addresses = [{id: 1, value: 'Central 3'}, {id: 2, value: 'North 44'}]
 
 const parserMiddleware = bodyParser()
 app.use(parserMiddleware)
